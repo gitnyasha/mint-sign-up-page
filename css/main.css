@@ -1,0 +1,18 @@
+body {
+  background: #eceef1;
+}
+.topright {
+  float: right;
+}
+.topright p {
+  float: left;
+  font-size: 12px;
+}
+.topright button {
+  padding: 10px 20px;
+  background: steelblue;
+  color: #fff;
+  border-radius: 5%;
+  border: solid thin black;
+  margin: 10px;
+}
