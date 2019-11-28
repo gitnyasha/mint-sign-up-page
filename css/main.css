@@ -26,15 +26,7 @@ a {
   margin-bottom: 20px;
 }
 
-.form button {
-  padding: 10px 20px;
-  background: steelblue;
-  color: #fff;
-  border-radius: 5%;
-  border: solid thin black;
-  margin: 10px;
-}
-
+.form button,
 .topright button {
   padding: 10px 20px;
   background: steelblue;
@@ -42,6 +34,7 @@ a {
   border-radius: 5%;
   border: solid thin black;
   margin: 10px;
+  cursor: pointer;
 }
 
 div input,
@@ -74,17 +67,29 @@ section {
   width: 118px;
 }
 
+#otherLogos {
+  display: inline-flex;
+  align-items: stretch;
+} 
+
+#otherLogos img {
+  margin-right: 5px; 
+}
+
 .logo246 {
   width: 20px;
   height: 20px;
 }
 
 .form-wrapper {
-  width: 30%;
+  width: 25vw;
   background-color: white;
   border: 1px solid #cecece;
 }
 
+#formTitlePosition a {
+  padding-top: 0px;
+}
 footer p,
 .policy p {
   width: 100%;
@@ -118,6 +123,7 @@ label {
 
 #formFooter {
   background-color: #eceef1;
+  width: 25vw;
   height: 60px;
 }
 
