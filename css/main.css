@@ -75,10 +75,10 @@ section {
 #otherLogos {
   display: inline-flex;
   align-items: stretch;
-} 
+}
 
 #otherLogos img {
-  margin-right: 5px; 
+  margin-right: 5px;
 }
 
 .logo246 {
@@ -92,18 +92,25 @@ section {
   border: 1px solid #cecece;
 }
 
-#formTitlePosition a {
-  padding-top: 0px;
+.form-wrapper p,
+a {
+  font-size: 13px;
 }
+
+#formFooter p,
+a {
+  padding-top: 20px;
+  font-size: 10px;
+}
+
+#formTitlePosition a {
+  padding-top: 0;
+}
+
 footer p,
 .policy p {
   width: 100%;
   text-align: center;
-}
-
-.form-wrapper p,
-a {
-  font-size: 13px;
 }
 
 .phone-rates {
@@ -131,12 +138,6 @@ label {
   background-color: #eceef1;
   width: 25vw;
   height: 60px;
-}
-
-#formFooter p,
-a {
-  padding-top: 20px;
-  font-size: 10px;
 }
 
 footer {
