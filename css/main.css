@@ -1,18 +1,72 @@
 body {
   background: #eceef1;
+  font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-.topright {
-  float: right;
+.fontColor{
+  color: #505050;
 }
-.topright p {
-  float: left;
+.headerFontSize{
   font-size: 12px;
 }
-.topright button {
+a{
+  text-decoration: none;
+  color: #0077C5;
+}
+.topright {
+  width: 100%;
+  display: inline-flex;
+  justify-content: flex-end;
+}
+.topright button, form button {
   padding: 10px 20px;
   background: steelblue;
   color: #fff;
   border-radius: 5%;
   border: solid thin black;
   margin: 10px;
+}
+div input, form button{
+  width: 20vw;
+}
+div input {
+  height: 25px;
+  border : 1px solid #CECECE;
+  border-radius: 4px;
+}
+section,.logos, .form-wrapper, #formTitlePosition, form{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+section{
+  width: 100%;
+}
+#mainLogo{
+  height: 35px;
+  width: 118px;
+}
+.logo246{
+  width: 20px;
+  height: 20px;
+}
+.form-wrapper{
+  background-color: white;
+  border : 1px solid #CECECE;
+}
+.label-inputPosition{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#formFooter{
+  background-color: #eceef1;
+  height: 60px;
+}
+#formFooter p {
+  padding: 20px 0px 0px 0px;
+}
+
+.policy p, footer p {
+  width: 100%;
+  text-align: center;
 }
