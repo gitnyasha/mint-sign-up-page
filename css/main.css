@@ -1,27 +1,32 @@
 body {
   background: #eceef1;
-  font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.fontColor{
+
+.fontColor {
   color: #505050;
 }
-.headerFontSize{
+
+.headerFontSize {
   font-size: 12px;
 }
-a{
+
+a {
   text-decoration: none;
-  color: #0077C5;
+  color: #0077c5;
 }
+
 .topright {
   width: 100%;
   display: inline-flex;
   justify-content: flex-end;
 }
+
 .logos {
   margin-bottom: 20px;
 }
 
-.topright button, form button {
+.form button {
   padding: 10px 20px;
   background: steelblue;
   color: #fff;
@@ -29,69 +34,99 @@ a{
   border: solid thin black;
   margin: 10px;
 }
-div input, form button{
+
+.topright button {
+  padding: 10px 20px;
+  background: steelblue;
+  color: #fff;
+  border-radius: 5%;
+  border: solid thin black;
+  margin: 10px;
+}
+
+div input,
+.form button {
   width: 20vw;
 }
+
 div input {
   height: 25px;
-  border : 1px solid #CECECE;
+  border: 1px solid #cecece;
   border-radius: 4px;
 }
-section,.logos, .form-wrapper, #formTitlePosition, form{
+
+section,
+.logos,
+.form-wrapper,
+#formTitlePosition,
+.form {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
 }
-section{
+
+section {
   width: 100%;
 }
-#mainLogo{
+
+#mainLogo {
   height: 35px;
   width: 118px;
 }
-.logo246{
+
+.logo246 {
   width: 20px;
   height: 20px;
 }
 
-.form-wrapper{
+.form-wrapper {
   width: 30%;
   background-color: white;
-  border : 1px solid #CECECE;
+  border: 1px solid #cecece;
 }
-.form-wrapper p, a {
+
+footer p,
+.policy p {
+  width: 100%;
+  text-align: center;
+}
+
+.form-wrapper p,
+a {
   font-size: 13px;
 }
-form {
+
+.phone-rates p {
+  font-size: 10px;
+  color: black;
+}
+
+.form {
   margin-top: 10px;
 }
-.label-inputPosition{
+
+.label-inputPosition {
   margin-top: 20px;
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
 }
+
 label {
   font-size: 18px;
 }
-.phone-rates p {
-  font-size: 10px;
-  color: black;
-}
-#formFooter{
+
+#formFooter {
   background-color: #eceef1;
   height: 60px;
 }
-#formFooter p, a {
-  padding: 20px 0px 0px 0px;
-  font-size: 10px;
 
+#formFooter p,
+a {
+  padding-top: 20px;
+  font-size: 10px;
 }
-.policy p, footer p {
-  width: 100%;
-  text-align: center;
-}
+
 footer {
   font-size: 13px;
-
 }
