@@ -5,6 +5,7 @@ body {
 
 .fontColor {
   color: #505050;
+  font-size: 15px;
 }
 
 .headerFontSize {
@@ -40,6 +41,10 @@ a {
 div input,
 .form button {
   width: 20vw;
+}
+
+.pageTitle {
+  font-size: 20px;
 }
 
 div input {
@@ -101,7 +106,7 @@ a {
   font-size: 13px;
 }
 
-.phone-rates p {
+.phone-rates {
   font-size: 10px;
   color: black;
 }
@@ -111,13 +116,14 @@ a {
 }
 
 .label-inputPosition {
-  margin-top: 20px;
+  margin-top: 40px;
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
 label {
+  padding-bottom: 8px;
   font-size: 18px;
 }
 
