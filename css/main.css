@@ -1,0 +1,145 @@
+body {
+  background: #eceef1;
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.fontColor {
+  color: #505050;
+  font-size: 15px;
+}
+
+.headerFontSize {
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+.topright {
+  width: 100%;
+  display: inline-flex;
+  justify-content: flex-end;
+}
+
+.logos {
+  margin-bottom: 20px;
+}
+
+.form button,
+.topright button {
+  padding: 10px 20px;
+  background: steelblue;
+  color: #fff;
+  border-radius: 5%;
+  border: solid thin black;
+  margin: 10px;
+  cursor: pointer;
+}
+
+div input,
+.form button {
+  width: 20vw;
+}
+
+.pageTitle {
+  font-size: 20px;
+}
+
+div input {
+  height: 25px;
+  border: 1px solid #cecece;
+  border-radius: 4px;
+}
+
+section,
+.logos,
+.form-wrapper,
+#formTitlePosition,
+.form {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  width: 100%;
+}
+
+#mainLogo {
+  height: 35px;
+  width: 118px;
+}
+
+#otherLogos {
+  display: inline-flex;
+  align-items: stretch;
+}
+
+#otherLogos img {
+  margin-right: 5px;
+}
+
+.logo246 {
+  width: 20px;
+  height: 20px;
+}
+
+.form-wrapper {
+  width: 25vw;
+  background-color: white;
+  border: 1px solid #cecece;
+}
+
+footer p,
+.policy p {
+  width: 100%;
+  text-align: center;
+}
+
+.form-wrapper p,
+a {
+  font-size: 13px;
+}
+
+#formFooter p,
+a {
+  padding-top: 20px;
+  font-size: 10px;
+}
+
+#formTitlePosition a {
+  padding-top: 0;
+}
+
+.phone-rates {
+  font-size: 10px;
+  color: black;
+}
+
+.form {
+  margin-top: 10px;
+}
+
+.label-inputPosition {
+  margin-top: 40px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+label {
+  padding-bottom: 8px;
+  font-size: 18px;
+}
+
+#formFooter {
+  background-color: #eceef1;
+  width: 25vw;
+  height: 60px;
+}
+
+footer {
+  font-size: 13px;
+}
