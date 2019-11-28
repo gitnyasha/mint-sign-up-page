@@ -92,6 +92,12 @@ section {
   border: 1px solid #cecece;
 }
 
+footer p,
+.policy p {
+  width: 100%;
+  text-align: center;
+}
+
 .form-wrapper p,
 a {
   font-size: 13px;
@@ -105,12 +111,6 @@ a {
 
 #formTitlePosition a {
   padding-top: 0;
-}
-
-footer p,
-.policy p {
-  width: 100%;
-  text-align: center;
 }
 
 .phone-rates {
