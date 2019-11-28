@@ -7,6 +7,6 @@ In this project we tried copying this sign up page: https://accounts.intuit.com/
 
 
 ---------------------------
-The contributors :
-Touili Mohammed (Github: https://github.com/simoxsimo)
+The contributors :  
+Touili Mohammed (Github: https://github.com/simoxsimo)  
 Marshall Chikari (Github: https://github.com/gitnyasha)
