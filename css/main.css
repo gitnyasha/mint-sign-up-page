@@ -17,6 +17,10 @@ a{
   display: inline-flex;
   justify-content: flex-end;
 }
+.logos {
+  margin-bottom: 20px;
+}
+
 .topright button, form button {
   padding: 10px 20px;
   background: steelblue;
@@ -49,24 +53,45 @@ section{
   width: 20px;
   height: 20px;
 }
+
 .form-wrapper{
+  width: 30%;
   background-color: white;
   border : 1px solid #CECECE;
 }
+.form-wrapper p, a {
+  font-size: 13px;
+}
+form {
+  margin-top: 10px;
+}
 .label-inputPosition{
+  margin-top: 20px;
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
+}
+label {
+  font-size: 18px;
+}
+.phone-rates p {
+  font-size: 10px;
+  color: black;
 }
 #formFooter{
   background-color: #eceef1;
   height: 60px;
 }
-#formFooter p {
+#formFooter p, a {
   padding: 20px 0px 0px 0px;
-}
+  font-size: 10px;
 
+}
 .policy p, footer p {
   width: 100%;
   text-align: center;
+}
+footer {
+  font-size: 13px;
+
 }
